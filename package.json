@@ -1,0 +1,15 @@
+{
+  "name": "scancare-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Silika & Wimarar",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^4.0.2"
+  },
+  "description": "a Backend service made for ScanCare App"
+}
