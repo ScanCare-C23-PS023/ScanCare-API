@@ -22,7 +22,7 @@ const routes = [
     },
     {
         method: 'GET',
-        path: '/products/jkistik',
+        path: '/products/jcystic',
         handler: getKistik
     },
     {

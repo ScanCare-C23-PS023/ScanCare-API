@@ -14,7 +14,7 @@ const diseases = [
       imageUrl: "https://storage.googleapis.com/scancare-db/diseases/Jerawat%20Pustula.jpg"
     },
     {
-      id: "jkistik",
+      id: "jcystic",
       name: 'Jerawat kistik (batu)',
       characteristics: 'Jerawat kistik terbentuk dari penumpukan minyak dan sel kulit mati pada jaringan kulit yang paling dalam. Bentuknya lebih besar, keras, merah, dan terasa nyeri dan sakit jika disentuh.',
       causes: 'Jerawat kistik dipengaruhi oleh produksi minyak berlebih, perubahan hormon, dan faktor lain seperti kulit berminyak dan kebiasaan mengenakan pakaian yang terlalu ketat.',

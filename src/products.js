@@ -6,9 +6,9 @@ const products = [
         rating : "4.5",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Garnier.png",
         bgColor : "#D1E0D5",
-        desc: "A face wash that will gently cleanses your face and helps brighten your skin. It uses natural ingredients and Lemon Extract to provide gentle cleansing and skin brightening. The lemon aroma makes the skin feeling refreshed after use.",
-        time: "Twice a day",
-        ingredients: "Vitamin C"
+        desc : "Foam pembersih wajah yang membersihkan wajah dengan lembut dan membantu mencerahkan kulit wajah. Sabun cuci muka dengan bahan alami menggunakan Sari Lemon yang berguna untuk membersihkan wajah dengan lembut dan membantu mencerahkan kulit wajah. Aroma lemon yang terdapat di dalamnya membuat kulit terasa segar setelah menggunakannya.",
+        time : "Dua kali sehari",
+        ingredients : "Vitamin c"
     },
     {
         id : "2",
@@ -17,9 +17,9 @@ const products = [
         rating : "5",
         imageURL : "https://storage.googleapis.com/scancare-db/products/L'Oreal.png",
         bgColor : "#D1E0D5",
-        desc: "L'Oréal Paris Revitalift Crystal Micro Essence is an essence that promotes crystal-clear skin. It is formulated with Micronized Technology to penetrate up to 10 layers of the skin. The lightweight texture absorbs quickly without leaving a sticky residue. It will help you achieve healthy skin with fast skin regeneration to prevent premature aging.",
-        time: "After cleansing face",
-        ingredients: "Centella Asiatica"
+        desc : "L'Oréal Paris Revitalift Crystal Micro Essence adalah essence untuk membuat kulit tampak sebening kristal. Dilengkapi dengan Micronized Technology, essence ini dapat menyerap hingga 10 lapisan kulit. Teksturnya ringan dan tidak meninggalkan rasa lengket.",
+        time : "Dua kali sehari",
+        ingredients : "Centella Asiatica"
     },
     {
         id : "3",
@@ -28,8 +28,8 @@ const products = [
         rating : "4.3",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Acnes.png",
         bgColor : "#F6E3E7",
-        desc: "This face wash will help you cleanse your face, maintain its moisture, and promote skin brightening. It also helps fighting acne-causing bacteria, preventing acne and fading acne scars while brightening the skin.",
-        time: "Twice a day",
+        desc : "Produk pembersih wajah ini membantu membersihkan wajah, menjaga kelembaban, serta membantu mencerahkan wajah. Selain itu, produk ini juga membantu melawan bakteri penyebab jerawat sehingga membantu mencegah jerawat, serta mencerahkan dan menyamarkan bekas jerawat.",
+        time : "Dua kali sehari",
         ingredients: "Natural Active Ingredient"
     },
     {
@@ -39,9 +39,9 @@ const products = [
         rating : "4.8",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Wardah.png",
         bgColor : "#F6E3E7",
-        desc: "A moisturizer specifically designed for acne-prone skin, providing hydration and protection from UV rays.",
-        time: "In the morning",
-        ingredients: "DermaTreat Actives, Willowherb"
+        desc : "Pelembab khusus untuk perawatan kulit yang rentan berjerawat, untuk menjaga hidrasi kulit sekaligus melindunginya dari sinar UV.",
+        time : "Setiap pagi",
+        ingredients: "DermaTreat Actives"
     },
     {
         id : "5",
@@ -50,8 +50,8 @@ const products = [
         rating : "4.9",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Scarlett.png",
         bgColor : "#D1E0D5",
-        desc: "Scarlett Whitening Acne Serum has the ability to eliminate acne and prevent acne from reappearing, while maintaining the skin's health.",
-        time: "Twice a day",
+        desc : "Scarlett Whitening Acne Serum memiliki kemampuan untuk menghilangkan jerawat dan menjaga kulit agar jerawat membandel tidak datang lagi.",
+        time: "Dua kali sehari",
         ingredients: "Salicylic Acid"
     },
     {
@@ -61,8 +61,8 @@ const products = [
         rating : "4.6",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Emina.png",
         bgColor : "#D1E0D5",
-        desc: "This moisturizer contain Summer Plum Extract and Vitamin E that will brighten and moisturize your face. It is also enriched with UVA and UVB filters to protect the skin from the sun. Its lightweight formula can be used daily and gives the face a matte appearance all day long.",
-        time: "Twice a day",
+        desc : "Produk ini mampu mencerahkan dan melembabkan wajah. Pelembab yang mengandung Ekstrak Summer Plum dan Vitamin E ini juga diperkaya dengan UVA dan UVB filter yang juga melindungi kulit wajah dari sinar matahari. Formulanya ringan, bisa dipakai setiap hari dan bikin wajah kamu terlihat matte sepanjang hari.",
+        time: "Dua kali sehari",
         ingredients: "Summer Plum Extract"
     },
     {
@@ -72,19 +72,19 @@ const products = [
         rating : "4.8",
         imageURL : "https://storage.googleapis.com/scancare-db/products/MS%20Glow.png",
         bgColor : "#D1E0D5",
-        desc: "MS Glow Acne Night Cream is a night cream specifically designed for oily and acne-prone skin. It is enriched with Tea Tree Oil and Sulfur as antibacterial agents to control excess oil and care for acne-prone skin, providing soothing, calming, and healing effects for acne on your face.",
-        time: "Before bed",
+        desc: "Acne Night Cream dari MS Glow adalah cream malam khusus untuk kulit yang cenderung berminyak dan berjerawat, diperkaya dengan Tea tree Oil dan sulfur sebagai anti bakteri , mengontrol minyak berlebih dan membantu merawat kulit berjerawat sehingga dapat menenangkan dan meredakan dan menyembuhkan jerawat di wajah.",
+        time: "Sebelum tidur",
         ingredients: "Tea Tree Oil"
     },
     {
         id : "8",
-        brand : "CosrX",
+        brand : "COSRX",
         kind : "Gel Cleanser",
         rating : "4.6",
         imageURL : "https://storage.googleapis.com/scancare-db/products/CosrX.png",
         bgColor : "#F6E3E7",
-        desc: "COSRX LOW PH GOOD MORNING GEL CLEANSER is a facial cleanser used to soothe, exfoliate, moisturize, and cleanse the skin. Its formulation has a pH level similar to the skin's pH, effectively cleaning the face to make it clean and fresh.",
-        time: "Twice a day",
+        desc : "COSRX LOW PH GOOD MORNING GEL CLEANSER merupakan pembersih wajah yang digunakan untuk menenangkan, mengeksfoliasi, melembapkan sekaligus membersihkan kulit wajah. Kandungan pada produk ini memiliki kadar acid yang mirip dengan kadar pH kulit sehingga efektif membersihkan wajah menjadi bersih dan segar.", 
+        time: "Dua kali sehari",
         ingredients: "Cocamidopropyl Betaine"
     },
     {
@@ -94,8 +94,8 @@ const products = [
         rating : "4.5",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Pond's.png",
         bgColor : "#F6E3E7",
-        desc: "POND'S ACNE SOLUTION FACIAL FOAM is a facial foam cleanser with Thymo-T Essence, Niacinamide, and Salicylic Acid, which help cleanse the face from dust, pollution, and acne-causing bacteria.",
-        time: "Twice a day",
+        desc : "POND'S ACNE SOLUTION FACIAL FOAM merupakan busa pembersih wajah dengan kandungan Thymo-T Essence, Niacinamide, Salicylic Acid yang membantu membersihkan wajah dari debu, polusi, dan bakteri penyebab jerawat.",
+        time : "Dua kali sehari",
         ingredients: "Thymo-T Essence"
     },
     {
@@ -105,8 +105,8 @@ const products = [
         rating : "4.4",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Kahf.png",
         bgColor : "#D1E0D5",
-        desc: "The Kahf Oil and Acne Care Face Wash has a unique formula that combines HydroBalanceTM and Pure Cleanse, resulting in a thoroughly clean and deeply moisturized face without make you worry about dry skin or tight skin.",
-        time: "Twice a day",
+        desc : "Keunggulan dari Kahf Oil and Acne Care Face Wash yakni memiliki perpaduan formula HydroBalance dan Pure Cleanse untuk hasil wajah bersih dan lembap menyeluruh, sehingga tidak perlu khawatir kulit menjadi kering dan kaku.",
+        time : "Dua kali sehari",
         ingredients: "HydroBalance"
     },
     {
@@ -116,8 +116,8 @@ const products = [
         rating : "4.9",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Dermatix.png",
         bgColor : "#F6E3E7",
-        desc: "Dermatix Acne Spot Care contains Cyclopentasiloxane (CPX), which is a quick-drying silicone gel that spreads easily and forms a thin, fast-drying layer.",
-        time: "Twice a day",
+        desc : "Dermatix Acne Spot Care mengandung cyclopentasiloxane (CPX) yang merupakan silikon gel cepat kering yang mudah menyebar membentuk lapisan tipis yang cepat kering. Mudah diserap ke dalam kulit dan tidak lengket, membantu menghilangkan bekas luka jerawat di kulit.",
+        time : "Dua kali sehari",
         ingredients: "Niacinamide"
     },
     {
@@ -127,8 +127,8 @@ const products = [
         rating : "4.3",
         imageURL : "https://storage.googleapis.com/scancare-db/products/Safi.png",
         bgColor : "#F6E3E7",
-        desc: "Safi White Expert Purifying Cleanser is a face wash that contains natural ingredients such as Habbatus Sauda extract and OxyWhite technology. It effectively cleanse dust and impurities that clog the pores, removes makeup residue thoroughly, helps maintain the skin's moisture, and is suitable for all skin types.",
-        time: "Twice a day",
+        desc : "Safi White Expert Purifying Cleanser merupakan pembersih wajah yang mengandung bahan-bahan alami seperti ekstrak Habbatus Sauda dan teknologi OxyWhite yang dapat membersihkan debu dan kotoran yang menyumbat pori-pori, membersihkan sisa make up dengan seksama, membantu menjaga kelembapan kulit wajah dan cocok untuk semua jenis kulit.",
+        time : "Dua kali sehari",
         ingredients: "Habbatus Sauda"
     },
 ];
