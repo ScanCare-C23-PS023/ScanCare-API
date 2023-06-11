@@ -1,45 +1,46 @@
 const products = require('./products');
 const diseases = require('./diseases');
+const articles = require('./articles');
 import('nanoid');
 
-const getPapula = () => {
-  const brand1 = products.filter((product) => product.id === '9');
-  const brand2 = products.filter((product) => product.id === '7');
-  const brand3 = products.filter((product) => product.id === '3');
-
-  return {brand1, brand2, brand3};
-};
-
-const getPustula = () => {
-  const brand1 = products.filter((product) => product.id === '10');
-  const brand2 = products.filter((product) => product.id === '6');
-  const brand3 = products.filter((product) => product.id === '3');
-
-  return {brand1, brand2, brand3};
-};
-
-const getKistik = () => {
-  const brand1 = products.filter((product) => product.id === '4');
-  const brand2 = products.filter((product) => product.id === '6');
-  const brand3 = products.filter((product) => product.id === '7');
-
-  return {brand1, brand2, brand3};
-};
-
-const getPasir = () => {
-  const brand1 = products.filter((product) => product.id === '3');
-  const brand2 = products.filter((product) => product.id === '7');
-  const brand3 = products.filter((product) => product.id === '8');
-
-  return {brand1, brand2, brand3};
-};
-
-const getBopeng = () => {
-  const brand1 = products.filter((product) => product.id === '11');
-  const brand2 = products.filter((product) => product.id === '2');
-  const brand3 = products.filter((product) => product.id === '5');
-
-  return {brand1, brand2, brand3};
+const getProductById = (request, h) => {
+    const {id} = request.params;
+    
+    if (id === "jpapula") {
+        const productIds = ["9", "7", "3"];
+        const product = products.filter((product) => productIds.includes(product.id));
+        
+        return product
+    }
+    else if (id === "jpustula") {
+        const productIds = ["10", "6", "3"];
+        const product = products.filter((product) => productIds.includes(product.id));
+        
+        return product
+    }
+    else if (id === "jcystic") {
+        const productIds = ["4", "6", "7"];
+        const product = products.filter((product) => productIds.includes(product.id));
+        
+        return product
+    }
+    else if (id === "jpasir") {
+        const productIds = ["3", "7", "8"];
+        const product = products.filter((product) => productIds.includes(product.id));
+        
+        return product
+    }
+    else if (id === "bopeng") {
+        const productIds = ["11", "2", "5"];
+        const product = products.filter((product) => productIds.includes(product.id));
+        
+        return product
+    }
+    else {
+        const product = products.filter((product) => product.id === id);
+        
+        return product
+    }
 };
 
 const getAllProducts = () => (products);
@@ -54,14 +55,23 @@ const getDiseaseById = (request, h) => {
 
 const getAllDiseases = () => (diseases);
 
+const getArticleById = (request, h) => {
+  const {id} = request.params;
+  
+  const article = articles.filter((article) => article.id === id)[0];
+
+  return article;
+};
+
+const getAllArticles = () => (articles);
+
 module.exports = 
   {
-    getPapula, 
-    getPustula,
-    getKistik,
-    getPasir,
-    getBopeng,
+    getProductById,
+    getAllProducts,
     getAllProducts,
     getDiseaseById,
-    getAllDiseases
+    getAllDiseases,
+    getArticleById,
+    getAllArticles
   };

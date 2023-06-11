@@ -1,39 +1,17 @@
 const {
-        getPapula, 
-        getPustula,
-        getKistik,
-        getPasir,
-        getBopeng,
+        getProductById,
         getAllProducts,
         getDiseaseById,
-        getAllDiseases
+        getAllDiseases,
+        getArticleById,
+        getAllArticles
       } = require('./handler');
 
 const routes = [
     {
         method: 'GET',
-        path: '/products/jpapula',
-        handler: getPapula
-    },
-    {
-        method: 'GET',
-        path: '/products/jpustula',
-        handler: getPustula
-    },
-    {
-        method: 'GET',
-        path: '/products/jcystic',
-        handler: getKistik
-    },
-    {
-        method: 'GET',
-        path: '/products/jpasir',
-        handler: getPasir
-    },
-    {
-        method: 'GET',
-        path: '/products/bopeng',
-        handler: getBopeng
+        path: '/products/{id}',
+        handler: getProductById
     },
     {
         method: 'GET',
@@ -49,6 +27,16 @@ const routes = [
         method: 'GET',
         path: '/diseases',
         handler: getAllDiseases
+    },
+    {
+        method: 'GET',
+        path: '/articles/{id}',
+        handler: getArticleById
+    },
+    {
+        method: 'GET',
+        path: '/articles',
+        handler: getAllArticles
     },
 ];
 
