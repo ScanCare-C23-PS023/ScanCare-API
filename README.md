@@ -43,7 +43,7 @@ npm install
 ```bash 
 npm start
 ```
-5. Access the API endpoints using the base URL: `http://localhost:3000/api`
+5. Access the API endpoints using the base URL: `http://localhost:5000/products`
 
 ## Authors
 - Ilham Zakariya - Mobile Development - [Maxisud](https://github.com/Maxisud)
